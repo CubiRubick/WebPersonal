@@ -1,0 +1,107 @@
+{% extends 'base.html' %} {% load static %}
+<!--imagen de Cabecera -->
+{% block slider %}
+<div class="row slider">
+    <div class="col">
+        <img src="{% static 'core/img/programacion-1.jpg' %}" class="w-100" alt="Responsive image">
+    </div>
+</div>
+{% endblock %}
+
+<!--Contenido-->
+{% block content %}
+<main>
+    <!--Acerca de - contenido -->
+    <div class="container">
+        <div class="row contenedor">
+            <div class="col">
+                <h2 class="titulo">Acerca de Jose Villegas</h2>
+                <div class="row projects justify-content-center">
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <img src="{% static 'core/img/img-user.jpeg' %}" class="rounded-circle w-100" alt="...">
+                        <hr>
+                        <p class="text-center">Jose Villegas</p>
+                        <hr>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <p>Soy un estudiante de ingeniería en informática que desarrolló el gusto
+                            por la programación, que se esforzo por aprender buscando y realizando cursos de 
+                            distintos lenguajes, metodos, frameworks y asi estar siempre en constante actualizacion de mis conocimientos.
+                            <p>
+                            uno de mis principales gusto es el trabajar en equipo al momento de realizar cualquier proyecto 
+                            ya que los grandes logros se alcanzan fácilmente con un espíritu de
+                            equipo.
+
+                        </p>
+                        <h5 class="title-project">Estudios</h5>
+                        <p>
+                        Instituto: Instituto Tecnológico Superior de Purísima del Rincón
+                        <hr>
+                        principales logros: seleccionado para certificación de java, tutor de programación en java, participar en ENEIT ed.
+                        2018, concursos de programación, participar en Coding Cup Ed. 2019, liderar equipos de
+                        trabajo.
+                        </p>
+                        <hr>
+                        <p>
+                        Instituto: Colegio de Estudios Cientificos y Tecnológicos del Estado de Guanajuato plantel Purísima
+                        <hr>
+                        principales logros: Pertenecer al equipo de ajedrez, participar en concursos de ajedrez en representación de la
+                        escuela.
+
+                        </p>
+                    </div>
+                </div>
+
+                <h2 class="titulo">Conosimientos Profesionales</h2>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">PYTHON</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">FLASK</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">JAVA</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">MYSQL</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">DJANGO</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock%}
