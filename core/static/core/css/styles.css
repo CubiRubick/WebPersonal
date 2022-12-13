@@ -1,135 +1,169 @@
-body{
-    background: #f2f2f2;
+body {
+    background-color: #330033;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='4.5'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='11'/%3E%3Ccircle cx='539' cy='269' r='11'/%3E%3Ccircle cx='603' cy='493' r='11'/%3E%3Ccircle cx='731' cy='737' r='11'/%3E%3Ccircle cx='520' cy='660' r='11'/%3E%3Ccircle cx='309' cy='538' r='11'/%3E%3Ccircle cx='295' cy='764' r='11'/%3E%3Ccircle cx='40' cy='599' r='11'/%3E%3Ccircle cx='102' cy='382' r='11'/%3E%3Ccircle cx='127' cy='80' r='11'/%3E%3Ccircle cx='370' cy='105' r='11'/%3E%3Ccircle cx='578' cy='42' r='11'/%3E%3Ccircle cx='237' cy='261' r='11'/%3E%3Ccircle cx='390' cy='382' r='11'/%3E%3C/g%3E%3C/svg%3E");
     font-family: 'Open Sans', sans-serif;
 }
-header{
-    margin-top: 30px; 
+
+header {
+    margin-top: 30px;
 }
 
-header .nav{
+header .nav {
     min-height: 80px;
     overflow: hidden;
     background: #fff;
 }
+
+
 /* Logo */
+
 header .logo a,
 header .logo samp,
-header .logo p{
+header .logo p {
     font-size: 16px;
     display: inline-block;
     margin: 0;
 }
 
-header .logo .nombre{
+header .logo .nombre {
     font-weight: 800;
     text-transform: uppercase;
     text-decoration: none;
     color: black;
 }
 
-header .logo .icono{
+header .logo .icono {
     color: #bfbfbf;
 }
-header .logo p{
+
+header .logo p {
     color: #777777;
 }
+
+
 /* Menu de navegacion */
-header .menu{
+
+header .menu {
     padding: 0;
 }
 
-header .menu a{
+header .menu a {
     display: block;
     padding: 0 30px;
     text-decoration: none;
     color: #f2f2f2;
 }
 
-header .menu a div span{
+header .menu a div span {
     font-weight: 600;
     text-transform: uppercase;
 }
 
-header .menu .c-1 {background: #1aaf7e;}
-header .menu .c-2 {background: #108d63;}
-header .menu .c-3 {background: #0c7754;}
+header .menu .c-1 {
+    background: #1aaf7e;
+}
 
-header .menu .c-1:hover {background: #3fdda8;}
-header .menu .c-2:hover {background: #2ca77e;}
-header .menu .c-3:hover {background: #319775;}
+header .menu .c-2 {
+    background: #108d63;
+}
+
+header .menu .c-3 {
+    background: #0c7754;
+}
+
+header .menu .c-1:hover {
+    background: #3fdda8;
+}
+
+header .menu .c-2:hover {
+    background: #2ca77e;
+}
+
+header .menu .c-3:hover {
+    background: #319775;
+}
+
 
 /* Slider */
 
-.slider{
+.slider {
     margin-bottom: 40px;
 }
-.slider .col{
+
+.slider .col {
     padding: 0;
 }
+
+
 /*Portafolio */
-.contenedor{
+
+.contenedor {
     background: #fff;
     border-top: 5px solid #0c7754;
     padding: 0 20px;
 }
 
-.titulo{
+.titulo {
     padding: 40px 0;
     text-align: center;
     color: #0c7754;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-.title-project{
+
+.title-project {
     padding: 10px 0;
     color: #0c7754;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-.contenedor .projects .content-project .link-project{
+
+.contenedor .projects .content-project .link-project {
     background: #108d63;
     display: inline-block;
     color: #fff;
 }
 
-.contenedor .projects .content-project .link-project:hover{
+.contenedor .projects .content-project .link-project:hover {
     background: #1faa7c;
     display: inline-block;
     color: #fff;
 }
 
-.contenedor .projects .content-project{
+.contenedor .projects .content-project {
     margin-bottom: 40px;
     max-height: 200px;
     overflow: hidden;
 }
 
-.contenedor .projects .content-project a{
-    background: #25d198;
+.contenedor .projects .content-project a {
     display: inline-block;
 }
-.contenedor .projects .content-project:hover img{
+
+.contenedor .projects .content-project:hover img {
     opacity: .3;
 }
 
-.contenedor .modal-dialog{
+.contenedor .modal-dialog {
     margin: 0px auto;
     height: 100%;
     max-width: 1000px;
 }
 
-.contenedor .modal-content{
+.contenedor .modal-content {
     width: auto;
 }
+
+
 /* Contacto */
-.contacto{
+
+.contacto {
     padding: 10px 0;
     margin-bottom: 10px;
     text-align: center;
-    
 }
 
-.contacto .icono{
+.contacto .icono {
     width: 80px;
     height: 80px;
     font-size: 40px;
@@ -143,26 +177,50 @@ header .menu .c-3:hover {background: #319775;}
     border-radius: 80px;
     transition: all .3s ease;
     overflow: hidden;
-    
 }
 
-.contacto .phone{background: #151618}
-.contacto .mail{background: #ec2525}
-.contacto .mobile{background: #293a33}
-.contacto .whatsapp{background: #1ca144}
+.contacto .phone {
+    background: #151618
+}
 
-.contacto .phone:hover:hover{background: #585e63}
-.contacto .mail:hover{background: #ca5454}
-.contacto .mobile:hover{background: #629b83}
-.contacto .whatsapp:hover{background: #4e9b65}
+.contacto .mail {
+    background: #ec2525
+}
+
+.contacto .mobile {
+    background: #293a33
+}
+
+.contacto .whatsapp {
+    background: #1ca144
+}
+
+.contacto .phone:hover:hover {
+    background: #585e63
+}
+
+.contacto .mail:hover {
+    background: #ca5454
+}
+
+.contacto .mobile:hover {
+    background: #629b83
+}
+
+.contacto .whatsapp:hover {
+    background: #4e9b65
+}
+
 
 /* footer*/
-.redes-sociales{
+
+.redes-sociales {
     padding: 40px 0;
     margin-bottom: 40px;
     text-align: center;
 }
-.redes-sociales .icono{
+
+.redes-sociales .icono {
     width: 80px;
     height: 80px;
     font-size: 40px;
@@ -176,22 +234,84 @@ header .menu .c-3:hover {background: #319775;}
     border-radius: 80px;
     transition: all .3s ease;
 }
-.redes-sociales .icono:hover{
+
+.redes-sociales .icono:hover {
     background: #1aaf7e;
 }
-.redes-sociales .copyright{
+
+.redes-sociales .copyright {
     padding: 20PX 0;
 }
 
-.redes-sociales .copyright samp P{
+.redes-sociales .copyright samp P {
     font-family: 'Open Sans', sans-serif;
 }
+
+
+/*---botones redes ---*/
+
+.container2 {
+    background-color: green;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    height: 70px;
+    width: 70px;
+    background-color: #caf7e3;
+    border-radius: 35px;
+    text-align: center;
+    margin: 7px;
+    line-height: 80px;
+}
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.5);
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.facebook:hover {
+    color: blue;
+}
+
+.instagram:hover {
+    color: #e11d74;
+}
+
+.twitter:hover {
+    color: #00adb5;
+}
+
+.github:hover {
+    color: black;
+}
+
+.linkedin:hover {
+    color: #04009a;
+}
+
+
 /*---MEDIAQUERIES--- */
+
+
 /* Dispositivo xl */
-@media screen and (max-width:1199px){}
+
+@media screen and (max-width:1199px) {}
+
 
 /* Dispositivo lg */
-@media screen and (max-width:991px){
+
+@media screen and (max-width:991px) {
     .logo {
         height: 76px;
     }
@@ -201,31 +321,34 @@ header .menu .c-3:hover {background: #319775;}
     .menu a {
         width: 100%;
     }
-    .menu a div{
+    .menu a div {
         width: 100%;
     }
-
-    .modal .modal-dialog{
+    .modal .modal-dialog {
         width: 90%;
     }
-    .modal .modal-dialog .modal-content img{
+    .modal .modal-dialog .modal-content img {
         width: 100%;
     }
 }
 
+
 /* Dispositivo md */
-@media screen and (max-width:767px){}
+
+@media screen and (max-width:767px) {}
+
 
 /* Dispositivo sm */
-@media screen and (max-width:575px){
-    header{
+
+@media screen and (max-width:575px) {
+    header {
         margin-top: 0;
     }
     header .logo .nombre,
     header .logo p {
         font-size: 13px;
     }
-    header .menu a{
+    header .menu a {
         font-size: 14px;
     }
 }
