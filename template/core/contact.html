@@ -1,27 +1,18 @@
-{% extends 'base.html' %}{% load static %}
+{% load static %}
 <!--imagen de Cabecera -->
-{% block slider %}
-<div class="row slider">
-    <div class="col">
-        <img src="{% static 'core/img/contact-img.jpg' %}" class="w-100" alt="Responsive image">
-    </div>
-</div>
-{% endblock%}
-
 <!--Contenido-->
-{% block content%}
 <main>
     <!--Acerca de - contenido -->
     <div class="container">
-        <div class="row contenedor">
+        <div class="row contenedor mt-5">
             <div class="col">
                 <h2 class="titulo">Contactar a Jose Villegas</h2>
                 <div class="row contacto justify-content-center align-items-center">
-                    <div class="col-12 col-lg-2 col-md-2">
+                    <div class="col col-lg-2 col-md-2">
                         <a href="#" class="icono icon-phone phone"></a>
                     </div>
-                    <div class="col-12 col-lg-3 col-md-3">
-                        <p class="text-center">+52 477 908 2974</p>
+                    <div class="col-auto col-lg-3 col-md-3">
+                        <p class="text-center">+52 477 370 7438</p>
                     </div>
                 </div>
 
@@ -39,32 +30,11 @@
                         <a href="#" class="icono icon-whatsapp whatsapp"></a>
                     </div>
                     <div class="col-12 col-lg-3 col-md-3">
-                        <p class="text-center">+52 476 146 0365
+                        <p class="text-center">+52 477 370 7438
                         </p>
                     </div>
-                     <div class="container2">
-        <a class="link linkedin">
-            <i class="fab fa-2x fa-linkedin"></i>
-        </a>
-        <a class="link twitter">
-            <i class="fab fa-2x fa-twitter"></i>
-        </a>
-        <a class="link github">
-            <i class="fab fa-2x fa-github"></i>
-        </a>
-        <a class="link instagram">
-            <i class="fab fa-2x fa-instagram"></i>
-        </a>
-        <a class="link youtube">
-            <i class="fab fa-2x fa-youtube"></i>
-        </a>
-        <a class="link facebook">
-            <i class="fab fa-2x fa-facebook-f"></i>
-        </a>
-    </div>
                 </div>
             </div>
         </div>
     </div>
 </main>
-{% endblock%}

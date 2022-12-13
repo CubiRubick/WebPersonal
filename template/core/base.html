@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="{% static 'core/css/bootstrap.min.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'core/css/fontello.css' %}">
-    <script src="{% static 'fontawesomepro/js/all.min.js' %}"></script>
+    <link href="{% static 'fontawesomefree/css/fontawesome.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'fontawesomefree/css/brands.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'fontawesomefree/css/solid.css' %}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{% static 'core/css/styles.css' %}">
 
 </head>
@@ -39,12 +41,6 @@
                             <i class="icono icon-user"></i>
                         </div>
                     </a>
-                    <a href="{% url 'contact'%}" class="c-3 d-flex align-items-center">
-                        <div class="d-flex flex-column text-center">
-                            <span>Contacto</span>
-                            <i class="icono icon-mail"></i>
-                        </div>
-                    </a>
                 </nav>
             </div>
 
@@ -57,16 +53,7 @@
     {% block content %} {% endblock %}
     <!--Piede pagina -->
     <footer>
-        <div class="container">
-            <div class="row redes-sociales justify-content-center">
-                <div class="col-12 text-center" style="color:#ffffff;">
-                    <samp>
-						<p>Jose Villegas (Desarrollador BackEnd) </p>
-					</samp>
-                </div>
-            </div>
-
-        </div>
+        {% include 'contact.html' %}
     </footer>
 
     <script src="{% static 'core/js/jquery-3.4.1.min.js' %}"></script>
